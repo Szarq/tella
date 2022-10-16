@@ -126,17 +126,6 @@ html {
   transform: translate(-50%, -50%);
   opacity: 0;
 }
-.swiper-slide .s-fade-txt {
-  animation: FadeAni 0.5s ease 1s 1 normal both;
-}
-@keyframes FadeAni {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 .wrap {
   overflow: hidden;
 }
@@ -168,7 +157,6 @@ html {
 .swiper-pagination-bullet {
   background: #fff;
 }
-
 /* menu */
 .mopen {
   float: left;

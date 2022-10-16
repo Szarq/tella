@@ -20,7 +20,6 @@ In this example we will be using [KaTeX](https://katex.org/)
 {{ partial "math.html" . }}
 {{ end }}
 ```
-
 - To enable KaTex globally set the parameter `math` to `true` in a project's configuration
 - To enable KaTex on a per page basis include the parameter `math: true` in content files
 
@@ -47,3 +46,4 @@ Block math:
 $$
  \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
 $$
+
